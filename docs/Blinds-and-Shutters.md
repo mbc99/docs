@@ -140,7 +140,7 @@ Some motors need up to one second after power is turned on before they start mov
 Close the shutter and repeat this procedure until the motor delay is set properly.  
 
 ### Button Control
-When shutter is running in default `ShutterMode 0`, you already have basic control over the shutter movement using switches or buttons in the module configuration to directly drive the shutter relays.  For short circuit safe operation `ShutterMode 1` direct control of the relays will not give you a nice user interface since you have to 1st set the direction with one switch or button and 2nd switch on the power by the other switch or button. 
+When shutter is running in default `ShutterMode 1`, you already have basic control over the shutter movement using switches or buttons in the module configuration to directly drive the shutter relays.  For short circuit safe operation `ShutterMode 2` direct control of the relays will not give you a nice user interface since you have to 1st set the direction with one switch or button and 2nd switch on the power by the other switch or button. 
 
 To have shutter mode independent button control over the shutter and not over its relays one can use the `ShutterButton<x>` command. It also introduces some more features, see below:
 
